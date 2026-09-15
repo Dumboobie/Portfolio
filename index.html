@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="เว็บไซต์ประวัติส่วนตัวและแฟ้มสะสมผลงานของนักศึกษา">
+  <title>หน้าแรก | My Personal Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="กลับหน้าแรก">MY<span>PORTFOLIO</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="เปิดเมนู">☰</button>
+      <nav id="site-nav" class="site-nav" aria-label="เมนูหลัก">
+        <a data-nav="home" href="index.html">Home</a>
+        <a data-nav="about" href="about.html">About</a>
+        <a data-nav="education" href="education.html">Education</a>
+        <a data-nav="skills" href="skills.html">Skills</a>
+        <a data-nav="portfolio" href="portfolio.html">Portfolio</a>
+        <a data-nav="contact" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">HELLO, I'M</p>
+          <!-- แก้ชื่อ-นามสกุลตรงนี้ -->
+          <h1>สิริยากร ดำขำ<br></h1>
+          <p class="lead">มหาวิทยาลัยสวนดุสิต</p>
+          <p class="lead">สาขาธุรกิจสร้างสรรค์และเทคโนโลยีดิจิทัล</p>
+          <div class="button-row">
+            <a class="button" href="portfolio.html">ดูผลงานของฉัน <span aria-hidden="true">→</span></a>
+            <a class="button button-outline" href="contact.html">ติดต่อฉัน</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal reveal-delay">
+          <div class="portrait-frame">
+            <span class="portrait-label">STUDENT<br>PORTFOLIO</span>
+            <img src="assets/me.jpg" alt="รูปนักศึกษาชุดถูกระเบียบ — เปลี่ยนเป็นรูปของคุณได้ที่ assets/profile-placeholder.svg">
+            <span class="portrait-mark" aria-hidden="true">+</span>
+          </div>
+          <div class="floating-note"><strong>01</strong><span>Creative<br>mindset</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>พื้นที่รวบรวมประวัติ ทักษะ ผลงาน<br><span>และประสบการณ์</span></h2>
+        </div>
+        <div class="card-grid three-cols home-cards">
+          <a class="feature-card card-hover reveal" href="skills.html"><span class="card-icon">✦</span><h3>Skills</h3><p>ทักษะด้านโปรแกรมมิ่ง การออกแบบ และการสื่อสาร</p><span class="card-arrow">View more →</span></a>
+          <a class="feature-card card-hover reveal reveal-delay" href="portfolio.html"><span class="card-icon">◌</span><h3>Portfolio</h3><p>ผลงานเว็บไซต์และโปรเจกต์ที่ได้ลงมือทำ</p><span class="card-arrow">View more →</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span data-year></span> สิริยากร ดำขำ </p><p>Made with <span class="pink">♥</span> and curiosity.</p></div></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
